@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "614427363363",
+    "project_id": "niva-93f96",
+    "storage_bucket": "niva-93f96.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:614427363363:android:5dc0f68450fafdda178996",
+        "android_client_info": {
+          "package_name": "in.niva2026.restaurant"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDrO1EuBUMGKwPJuNMk-W-9eSyaZIlAh4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

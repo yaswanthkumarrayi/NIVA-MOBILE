@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "347675512759",
+    "project_id": "niva-partner",
+    "storage_bucket": "niva-partner.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:347675512759:android:cf10f57b4ae07124712232",
+        "android_client_info": {
+          "package_name": "in.niva2026.partner"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1Pyq9H7eUHO_dM99FUDAZiLqPcZeZvTA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

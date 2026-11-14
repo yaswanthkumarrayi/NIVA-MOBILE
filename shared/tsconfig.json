@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "strict": true,
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "noEmit": true,
+    "jsx": "react-native",
+    // Resolve shared deps from the partner app's node_modules so TSC can
+    // find react-native, expo-secure-store, @supabase/supabase-js, etc.
+    // This does NOT affect the Metro/Babel runtime resolution — it only
+    // affects tsc type-checking when invoked from the partner root.
+    "baseUrl": ".",
+    "paths": {
+      "react-native": ["../partner/node_modules/react-native/index.js"],
+      "react-native/*": ["../partner/node_modules/react-native/*"],
+      "@supabase/supabase-js": ["../partner/node_modules/@supabase/supabase-js/dist/module/index.js"],
+      "expo-secure-store": ["../partner/node_modules/expo-secure-store/build/index.js"]
+    }
+  },
+  "include": ["src/**/*.ts", "src/**/*.tsx"]
+}

@@ -1,0 +1,24 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "skipLibCheck": true,
+    "paths": {
+      "@niva/shared": ["../shared/src/index.ts"],
+      "@niva/shared/*": ["../shared/src/*"],
+      "react-native": ["./node_modules/react-native/types/index.d.ts"],
+      "react-native/*": ["./node_modules/react-native/types/*"],
+      "@supabase/supabase-js": ["./node_modules/@supabase/supabase-js/dist/index.d.cts"],
+      "@supabase/supabase-js/*": ["./node_modules/@supabase/supabase-js/dist/*"],
+      "expo-secure-store": ["./node_modules/expo-secure-store/build/SecureStore.d.ts"],
+      "react-native-razorpay": ["./node_modules/react-native-razorpay/index.js"]
+    },
+    "baseUrl": "."
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    "../shared/src/**/*.ts",
+    "../shared/src/**/*.tsx"
+  ]
+}
